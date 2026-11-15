@@ -1,0 +1,40 @@
+GIT COMMANDS USED IN SGA-2 ASSIGNMENT
+
+1. git —version
+    It checks the installed version of Git.
+2. git init
+    It initializes a new Git repository in the project folder.
+3. git branch -M main
+    It renames the current branch to main.
+4. git status
+    It displays the current status of the working directory.
+5. git add .
+    It adds all changed and new files to the staging area.
+6. git commit -m “Initial project setup”
+    It creates the first commit in the repository.
+7. git commit -m “Updated index.html”
+    It records changes made to index.html.
+8. git branch feature
+    It creates a new branch named feature.
+9. git switch feature
+    It switches to the feature branch.
+10. git commit -m “Added new feature to about page”
+    It saves changes made in the feature branch.
+11. git switch main
+    It switches back to the main branch.
+12. git merge feature
+    It merges the feature branch into the main branch.
+13. git log —oneline —graph —all
+    It displays commit history in graphical form.
+14. git commit -m “Added gitignore file”
+    It commits the .gitignore file.
+15. git commit -m “Added unwanted file”
+    It creates an additional commit for the undo operation.
+16. git revert —no-edit HEAD
+    It undoes the changes introduced by the latest commit while preserving history.
+17. git remote add origin 
+    It connects the local repository to the GitHub repository.
+18. git push -u origin main
+    It uploads the main branch to GitHub.
+19. git push -u origin feature
+    It uploads the feature branch to GitHub.
